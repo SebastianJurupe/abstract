@@ -1,1 +1,117 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  height: 80px;
+  background-color: #000000;
+}
+header .left-options {
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+header .left-options .logo {
+  display: flex;
+  align-items: center;
+}
+header .left-options .logo h2 {
+  padding-left: 15px;
+}
+header .left-options .logo img {
+  width: 45px;
+  height: 45px;
+}
+header .right-options .request, header .right-options .sign-in {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 7px;
+  border: 2px solid #fff;
+  background: #191a1b;
+  width: 200px;
+  height: 45px;
+}
+header .right-options .sign-in {
+  margin-left: 20px;
+  width: 150px;
+  background: #4C5FD5;
+  border-style: none;
+}
+
+main .banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: #dadbf1;
+}
+main .banner h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+main .banner input {
+  width: 600px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  box-shadow: 5px 10px 18px rgba(135, 135, 135, 0.3450980392);
+}
+main .banner input::-moz-placeholder {
+  padding-left: 12px;
+  font-size: 18px;
+  color: #7b7979;
+}
+main .banner input::placeholder {
+  padding-left: 12px;
+  font-size: 18px;
+  color: #7b7979;
+}
+
+section {
+  padding: 0 120px;
+}
+section .services-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 60px;
+}
+section .services-container .service {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-top: 60px;
+}
+section .services-container .service img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100px;
+  width: 120px;
+}
+section .services-container .service .description {
+  width: 60%;
+  padding-left: 25px;
+}
+section .services-container .service .description h3 {
+  margin: 0;
+  font-size: 21px;
+}
+section .services-container .service .description p {
+  font-size: 18px;
+}
+section .services-container .service .description a {
+  text-decoration: none;
+  color: #4C5FD5;
+}
+section .services-container .service .description h5 {
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */
