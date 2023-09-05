@@ -65,16 +65,8 @@ main .banner input {
   border-radius: 5px;
   border: 1px solid #000000;
   box-shadow: 5px 10px 18px rgba(135, 135, 135, 0.3450980392);
-}
-main .banner input::-moz-placeholder {
-  padding-left: 12px;
   font-size: 18px;
-  color: #7b7979;
-}
-main .banner input::placeholder {
-  padding-left: 12px;
-  font-size: 18px;
-  color: #7b7979;
+  padding-left: 15px;
 }
 
 section {
@@ -83,7 +75,7 @@ section {
 section .services-container {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 60px;
+  padding: 60px 0;
 }
 section .services-container .service {
   display: flex;
@@ -92,10 +84,10 @@ section .services-container .service {
   padding-top: 60px;
 }
 section .services-container .service img {
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: fill;
+     object-fit: fill;
   height: 100px;
-  width: 120px;
+  width: 80px;
 }
 section .services-container .service .description {
   width: 60%;
@@ -114,4 +106,50 @@ section .services-container .service .description a {
 }
 section .services-container .service .description h5 {
   font-size: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 60px;
+  background: #000000;
+  color: #fff;
+}
+footer .abstract, footer .design, footer .company, footer .community, footer .resources {
+  padding-right: 25px;
+  margin: 40px 0;
+}
+footer .abstract h4, footer .design h4, footer .company h4, footer .community h4, footer .resources h4 {
+  margin: 20px 0;
+  font-size: 22px;
+}
+footer .abstract p, footer .design p, footer .company p, footer .community p, footer .resources p {
+  margin: 5px 0;
+}
+footer .company h6 {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+footer .design {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+@media (max-width: 415px) {
+  header {
+    padding: 0 25px;
+  }
+  header .left-options h2 {
+    font-size: 15px;
+  }
+  header .left-options .logo img {
+    width: 30px;
+    height: 30px;
+  }
+  header .left-options .logo h2 {
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */
