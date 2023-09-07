@@ -7,9 +7,9 @@ body {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 60px;
+  justify-content: space-around;
   height: 80px;
+  width: 100%;
   background-color: #000000;
 }
 header .left-options {
@@ -139,8 +139,9 @@ footer .design {
 }
 
 @media (max-width: 415px) {
-  header {
-    padding: 0 25px;
+  header .left-options {
+    display: -webkit-inline-box;
+    padding-left: 20px;
   }
   header .left-options h2 {
     font-size: 15px;
@@ -151,5 +152,43 @@ footer .design {
   }
   header .left-options .logo h2 {
     font-size: 15px;
+  }
+  header .right-options {
+    opacity: 0;
+  }
+  main .banner h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  main .banner input {
+    width: 300px;
+  }
+  main section {
+    padding: 0 20px;
+  }
+  main section .services-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 30px 0;
+  }
+  main section .services-container .service {
+    width: 100%;
+    padding-top: 30px;
+  }
+  main section .services-container .service img {
+    height: 80px;
+    width: 60px;
+  }
+  main section .services-container .service .description p {
+    font-size: 15px;
+  }
+  main section .services-container .service .description h3 {
+    font-size: 18px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer .abstract, footer .resources, footer .community, footer .company, footer .design {
+    width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
