@@ -1,0 +1,8 @@
+-Auto Rename Tag
+-Ayu
+-Bearded Theme
+-Color Highlight
+-IntelliPHP
+-Material Theme
+-Matherial Theme Icons
+-Vscode Pets
